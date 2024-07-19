@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <h2>Registration Form</h2>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" required>
+        
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" required>
+        
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" placeholder="Enter your city" required>
+        
+        <label for="address">Address</label>
+        <textarea name="address" id="address" rows="4" placeholder="Enter your address" required></textarea>
+        
+        <label for="name">Username</label>
+        <input type="text" name="name" id="name" placeholder="Enter your username" required>
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        
+        <button type="submit">Submit</button>
+        <div id="message"></div>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
